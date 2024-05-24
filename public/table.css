@@ -1,0 +1,37 @@
+table {
+    max-width: 100px; /* Ancho máximo de la tabla */
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    font-size: 12px;
+    margin-top: 32px;
+    
+}
+
+th, td {
+    max-width: 120px; /* Ancho máximo de las celdas */
+    overflow: hidden;
+    white-space: nowrap; /* Evitar el desbordamiento de texto */
+    
+}
+
+.estado {
+    font-weight: bold;
+}
+
+.pendiente {
+    color: red;
+}
+
+.en-camino {
+    color: blue;
+}
+
+.entregado {
+    color: green;
+}
+
+.tabla-container {
+    max-height: 500px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Aparecerá una barra de desplazamiento vertical si es necesario */
+}
