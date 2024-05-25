@@ -12,7 +12,7 @@ use App\Models\order;
 
 use Illuminate\Support\Facades\Auth;
 
-class Admincontroller extends Controller
+class AdminController extends Controller
 {
     public function user()
     {
